@@ -53,30 +53,28 @@ Deep Neural Networks
 Slower training (>20 times slower than SVM) slightly better accuracy with about 2% difference to SVM.
 
 
-
-| Algo | Features |Accuracy
-| ------ | ------ |
-| SVM | scikit |83.6%
-| SVM | keras |84.1%
-| SVM | keras + embedding |83.8%
-| DNN | scikit |84.1 %
-| DNN | keras |84.9%
-| DNN | keras + embedding |85.7 %
-| DNN | scikit + embedding |86.4 %
+| Algo | Features | Accuracy
+| --- | --- | --- |
+| SVM | scikit | 83.6% |
+| SVM | keras | 84.1% |
+| SVM | keras + embedding | 83.8% |
+| DNN | scikit | 84.1 % |
+| DNN | keras | 84.9% |
+| DNN | keras + embedding | 85.7 % |
+| DNN | scikit + embedding | 86.4 % |
 
 Models hyper parameters optimization has not been done to some extent but there is very likely still some space from improvement. Especially with DNN it can be time consuming.
 
 You can compare the results with other similar experiments
 
-| Name | Details |Accuracy
-| ------ | ------ |
-| javedsha | SVM |82.3%
-| Stanford | stanford_classifier |81.1%
-| MS Research | SCDV |84.6%
+| Name | Details | Accuracy
+| --- | --- | --- |
+| javedsha | SVM | 82.3% |
+| Stanford| stanford_classifier | 81.1% |
+| MS Research | SCDV | 84.6% |
 
 References:
 
 https://github.com/javedsha/text-classification
 https://nlp.stanford.edu/wiki/Software/Classifier/20_Newsgroups
 https://arxiv.org/pdf/1612.06778.pdf
-
