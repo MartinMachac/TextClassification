@@ -65,7 +65,7 @@ Slower training (>20 times slower than SVM) slightly better accuracy with about 
 
 Models hyper parameters optimization has not been done to some extent but there is very likely still some space from improvement. Especially with DNN it can be time consuming.
 
-You can compare the results with other similar experiments
+You can compare the above results with other similar experiments
 
 | Name | Details | Accuracy
 | --- | --- | --- |
@@ -76,5 +76,7 @@ You can compare the results with other similar experiments
 References:
 
 https://github.com/javedsha/text-classification
+
 https://nlp.stanford.edu/wiki/Software/Classifier/20_Newsgroups
+
 https://arxiv.org/pdf/1612.06778.pdf
